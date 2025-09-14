@@ -61,7 +61,10 @@ const HeroSection = () => {
               }}
             >
               <div className="bio-icon">
-                <img src="/stats.png" style={{ width: "50px", height: "50px" }} />
+                <img
+                  src="/stats.png"
+                  style={{ width: "50px", height: "50px" }}
+                />
               </div>
               <div
                 style={{
@@ -137,6 +140,89 @@ const HeroSection = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="stats-sections">
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "8px",
+            }}
+          >
+            <p
+              style={{
+                color: "#006699",
+                fontWeight: "600",
+                fontSize: "36px",
+                letterSpacing: "3px",
+              }}
+            >
+              10+
+            </p>
+            <p>Years Experience</p>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "8px",
+            }}
+          >
+            <p
+              style={{
+                color: "#006F3E",
+                fontWeight: "600",
+                fontSize: "36px",
+                letterSpacing: "3px",
+              }}
+            >
+              50+
+            </p>
+            <p>Clinical Studies</p>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "8px",
+            }}
+          >
+            <p
+              style={{
+                color: "#045B35",
+                fontWeight: "600",
+                fontSize: "36px",
+                letterSpacing: "3px",
+              }}
+            >
+              100%
+            </p>
+            <p>Regulatory Compliance</p>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "8px",
+            }}
+          >
+            <p
+              style={{
+                color: "#006699",
+                fontWeight: "600",
+                fontSize: "36px",
+                letterSpacing: "3px",
+              }}
+            >
+              24/7
+            </p>
+            <p>Support Available</p>
           </div>
         </div>
       </div>

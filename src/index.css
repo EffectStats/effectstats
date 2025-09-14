@@ -166,6 +166,7 @@ a {
   border-radius: 10px;
 }
 
+/* bio section */
 .bio-icon {
   width: 84px;
   height: 81px;
@@ -188,6 +189,15 @@ a {
   letter-spacing: 0.03em;
 }
 
+/* stats section */
+.stats-sections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 150px;
+  align-items: center;
+  justify-items: center;
+}
+
 @media (max-width: 1080px) {
   /* hero section part 1 */
   .hero-title {
@@ -207,6 +217,8 @@ a {
     font-size: 48px;
     line-height: 58px;
   }
+
+  /* bio section */
 
   .bio-sections {
     flex-direction: column;
@@ -295,6 +307,7 @@ a {
     text-align: left;
   }
 
+  /* bio section */
   .bio-sections {
     flex-direction: column;
     gap: 20px;
