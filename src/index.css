@@ -221,10 +221,32 @@ a {
   /* bio section */
 
   .bio-sections {
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
     align-items: center;
     justify-content: center;
+  }
+
+  .bio-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .bio-paragraph {
+    width: 200px;
+    height: 63px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* stats section */
+  .stats-sections {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+    align-items: center;
+    justify-items: center;
   }
 }
 
@@ -313,5 +335,24 @@ a {
     gap: 20px;
     align-items: center;
     justify-content: center;
+  }
+
+  .bio-container {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .bio-paragraph{
+    text-align: left;
+  }
+
+  /* stats section */
+  .stats-sections {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+    justify-items: center;
   }
 }
