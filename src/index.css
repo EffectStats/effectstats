@@ -198,6 +198,75 @@ a {
   justify-items: center;
 }
 
+/* stpry section */
+.story-text {
+  background-color: #e1edf4;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #006699;
+  font-weight: 500;
+}
+
+.story-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-paragraph {
+  width: 912px;
+  height: 54px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #666666;
+}
+
+.story-title {
+  width: 912px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.story-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.story-p {
+  max-width: 600px;
+  height: auto;
+  left: 24px;
+  top: 157px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+
+  color: #666666;
+}
+
 @media (max-width: 1080px) {
   /* hero section part 1 */
   .hero-title {
@@ -247,6 +316,19 @@ a {
     gap: 70px;
     align-items: center;
     justify-items: center;
+  }
+
+  /* story section */
+  .story-paragraph {
+    width: 700px;
+  }
+
+  .story-div {
+    gap: 24px
+  }
+
+  .story-p{
+    max-width: 700px;
   }
 }
 
@@ -344,7 +426,7 @@ a {
     padding-bottom: 50px;
   }
 
-  .bio-paragraph{
+  .bio-paragraph {
     text-align: left;
   }
 
@@ -354,5 +436,20 @@ a {
     gap: 50px;
     align-items: center;
     justify-items: center;
+  }
+
+  /* story section */
+  .story-paragraph {
+    width: 345px;
+    text-align: left;
+  }
+
+  .story-div{
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  .story-p{
+    width: 345px;
   }
 }
