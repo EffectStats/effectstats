@@ -254,7 +254,7 @@ a {
 }
 
 .story-p {
-  max-width: 600px;
+  width: auto;
   height: auto;
   left: 24px;
   top: 157px;
@@ -265,6 +265,19 @@ a {
   letter-spacing: 0.01em;
 
   color: #666666;
+}
+
+.story-green {
+  box-sizing: border-box;
+
+  margin: 0 auto;
+  width: 600px;
+  height: 500px;
+
+ 
+  border: 1px solid #006f3e;
+  border-radius: 10px;
+  padding: 30px;
 }
 
 @media (max-width: 1080px) {
@@ -324,11 +337,14 @@ a {
   }
 
   .story-div {
-    gap: 24px
+    gap: 20px;
   }
 
-  .story-p{
-    max-width: 700px;
+
+
+  .story-green{
+    width: 400px;
+    height: 600px;
   }
 }
 
@@ -444,12 +460,17 @@ a {
     text-align: left;
   }
 
-  .story-div{
+  .story-div {
     flex-direction: column;
     padding-top: 50px;
   }
 
-  .story-p{
+  .story-p {
     width: 345px;
+  }
+
+   .story-green{
+    width: 400px;
+    height: 600px;
   }
 }

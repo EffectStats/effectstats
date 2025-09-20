@@ -249,15 +249,7 @@ const HeroSection = () => {
 
           <div className="story-div">
             <div
-              style={{
-                border: "1px solid #006F3E",
-                borderWidth: "1px",
-                borderRadius: "10px",
-                paddingLeft: "30px",
-                paddingRight: "30px",
-                paddingTop: "30px",
-                paddingBottom: "30px",
-              }}
+             className="story-green"
             >
               <div
                 style={{
@@ -312,15 +304,7 @@ const HeroSection = () => {
               </div>
             </div>
             <div
-              style={{
-                border: "1px solid #006F3E",
-                borderWidth: "1px",
-                borderRadius: "10px",
-                paddingLeft: "30px",
-                paddingRight: "30px",
-                paddingTop: "30px",
-                paddingBottom: "30px",
-              }}
+            className="story-green"
             >
               <div
                 style={{
@@ -343,7 +327,7 @@ const HeroSection = () => {
                   }}
                 >
                   <p style={{ fontWeight: "600", fontSize: "24px" }}>
-                    The Challenge We Solve
+                    Our Evolution
                   </p>
                   <div
                     style={{
@@ -353,22 +337,16 @@ const HeroSection = () => {
                     }}
                   >
                     <p className="story-p">
-                      With advancements in clinical research and the vibrant
-                      business environment, each biotech/pharmaceutical company
-                      has a unique pathway in clinical development. The main
-                      challenge companies face is balancing varying needs with
-                      investment in internal resources.
+                      In 2017, we expanded to include top-notch executive
+                      members who have built highly functional data management
+                      and programming teams. Our capacity now encompasses
+                      innovative statistical science, strategic biostatistical
+                      support, and all CDISC-compliant SAS programming.
                     </p>
                     <p className="story-p">
-                      EffectStats was founded to provide the final solution - we
-                      work as your integrated data science team, tailoring our
-                      contribution based on your needs at different stages of
-                      development. With advancements in clinical research and
-                      the vibrant business environment, each
-                      biotech/pharmaceutical company has a unique pathway in
-                      clinical development. The main challenge companies face is
-                      balancing varying needs with investment in internal
-                      resources.
+                      We are not a vendor in clinical research, but your
+                      integrated team providing tailored support along your
+                      development paradigm.
                     </p>
                   </div>
                 </div>
