@@ -1,5 +1,7 @@
 ### Some important installations to get this to work should be placed in here
 
+LIB_CONST <- "~/R/library"
+
 # make sure the directory exists
 dir.create("~/R/library", recursive = TRUE, showWarnings = FALSE)
 
@@ -10,6 +12,7 @@ install.packages("roxygen2", lib="~/R/library")
 install.packages("cli", lib="~/R/library")   # often needed too
 install.packages("pkgbuild", lib="~/R/library")
 install.packages("devtools", lib="~/R/library")
+install.packages("ambiorix", lib=LIB_CONST)
 
 
 # install remotes directly into ~/R/library
