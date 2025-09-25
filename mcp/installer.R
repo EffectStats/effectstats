@@ -17,6 +17,8 @@ install.packages("ambiorix", lib=LIB_CONST)
 
 # install remotes directly into ~/R/library
 install.packages("remotes", lib="~/R/library")
+install.packages("ellmer", lib=LIB_CONST)
+install.packages("dotenv", lib=LIB_CONST)
 
 # load remotes from there
 library(remotes, lib.loc="~/R/library")
