@@ -1,6 +1,7 @@
 library(ellmer)
 library(dotenv)
-
+load_dot_env(".env")
+Sys.getenv("OPENAI_API_KEY")
 dotenv::load_dot_env() # make sure .env is in the root of the directory
 
 
