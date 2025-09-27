@@ -1,4 +1,8 @@
 # app.R
+
+# to get this to run import the below libraries then run
+# shiny::runApp("path to app.R")
+
 library(shiny)
 library(rhandsontable)
 
